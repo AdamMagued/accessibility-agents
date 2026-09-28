@@ -30,13 +30,13 @@ These ratios are the minimum. Meeting them is mandatory, not aspirational.
 
 ### Text Contrast (4.5:1 minimum)
 
-- Normal text (under 18px or under 14px bold): 4.5:1 against background
+- Normal text (under 24px regular or under 18.5px bold / under 18pt or under 14pt bold): 4.5:1 against background
 - This applies to all text including placeholders, captions, timestamps, and secondary text
 - "It's just a caption" is not an excuse for low contrast
 
 ### Large Text Contrast (3:1 minimum)
 
-- Large text (18px+ or 14px+ bold): 3:1 against background
+- Large text (at least 24px regular or at least 18.5px bold / 18pt+ or 14pt+ bold): 3:1 against background
 - Headings often qualify as large text but verify the actual rendered size
 
 ### Non-Text Contrast (3:1 minimum)
