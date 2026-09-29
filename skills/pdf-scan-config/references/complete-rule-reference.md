@@ -6,40 +6,40 @@ Part of the `pdf-scan-config` skill. Read this only when the task reaches these 
 
 ### Layer 1: PDF/UA Conformance Rules (PDFUA.*)
 
-These map to ISO 14289-1 / Matterhorn Protocol checkpoints. Disabling these means the scan will not catch PDF/UA conformance failures.
+These map to ISO 14289-1 / Matterhorn Protocol 1.1 checkpoints. Disabling these means the scan will not catch PDF/UA conformance failures.
 
-| ID | Severity | What It Checks |
-|----|----------|---------------|
-| PDFUA.01.001 | error | Structure tree root exists |
-| PDFUA.01.002 | error | MarkInfo/Marked flag is true |
-| PDFUA.01.003 | error | All content enclosed in structure elements |
-| PDFUA.01.004 | error | Structure elements have standard or role-mapped types |
-| PDFUA.02.001 | error | Role map targets are standard types |
-| PDFUA.06.001 | error | Document-level language set |
-| PDFUA.06.002 | error | Language identifier is valid BCP 47 |
-| PDFUA.06.003 | warning | Language changes within text are tagged |
-| PDFUA.07.001 | error | Heading levels don't skip |
-| PDFUA.09.001 | error | No off-page content tagged |
-| PDFUA.11.001 | error | Text language determinable |
-| PDFUA.13.001 | error | Figure elements have /Alt text |
-| PDFUA.13.002 | warning | Alt text not excessively long |
-| PDFUA.13.003 | error | Decorative images marked as Artifact |
-| PDFUA.14.001 | error | Inline images tagged as Figure |
-| PDFUA.15.001 | warning | Formulas tagged and have alt text |
-| PDFUA.17.001 | error | Artifacts not duplicated in structure tree |
-| PDFUA.19.001 | error | Tables have TH cells |
-| PDFUA.19.002 | error | TH cells have Scope |
-| PDFUA.19.003 | error | Complex tables use Headers attribute |
-| PDFUA.20.001 | error | Lists properly tagged |
-| PDFUA.21.001 | error | Headings properly tagged |
-| PDFUA.25.001 | error | Tab order matches structure |
-| PDFUA.26.001 | error | Form fields have tooltips |
-| PDFUA.26.002 | error | Form fields in structure tree |
-| PDFUA.26.003 | warning | Form field tab order is ordered |
-| PDFUA.28.001 | error | Link annotations in structure tree |
-| PDFUA.28.002 | error | Links have descriptions |
-| PDFUA.30.001 | error | XMP and Info dict consistent |
-| PDFUA.31.001 | error | PDF/UA identification present |
+| ID | Checkpoint | Severity | What It Checks |
+|----|------------|----------|----------------|
+| PDFUA.01.001 | 01 | error | Structure tree root exists |
+| PDFUA.01.002 | 01 | error | MarkInfo/Marked flag is true |
+| PDFUA.01.003 | 01 | error | All content enclosed in structure elements |
+| PDFUA.01.004 | 01 | error | Structure elements have standard or role-mapped types |
+| PDFUA.02.001 | 02 | error | Role map targets are standard types |
+| PDFUA.06.001 | 11 | error | Document-level language set |
+| PDFUA.06.002 | 11 | error | Language identifier is valid BCP 47 |
+| PDFUA.06.003 | 11 | warning | Language changes within text are tagged |
+| PDFUA.07.001 | 14 | error | Heading levels don't skip |
+| PDFUA.09.001 | 09 | error | No off-page content tagged |
+| PDFUA.11.001 | 11 | error | Text language determinable |
+| PDFUA.13.001 | 13 | error | Figure elements have /Alt text |
+| PDFUA.13.002 | 13 | warning | Alt text not excessively long |
+| PDFUA.13.003 | 13 | error | Decorative images marked as Artifact |
+| PDFUA.14.001 | 13 | error | Inline images tagged as Figure |
+| PDFUA.15.001 | 17 | warning | Formulas tagged and have alt text |
+| PDFUA.17.001 | 01 | error | Artifacts not duplicated in structure tree |
+| PDFUA.19.001 | 15 | error | Tables have TH cells |
+| PDFUA.19.002 | 15 | error | TH cells have Scope |
+| PDFUA.19.003 | 15 | error | Complex tables use Headers attribute |
+| PDFUA.20.001 | 16 | error | Lists properly tagged |
+| PDFUA.21.001 | 14 | error | Headings properly tagged |
+| PDFUA.25.001 | 27 | error | Tab order matches structure |
+| PDFUA.26.001 | 24 | error | Form fields have tooltips |
+| PDFUA.26.002 | 24 | error | Form fields in structure tree |
+| PDFUA.26.003 | 24 | warning | Form field tab order is ordered |
+| PDFUA.28.001 | 28 | error | Link annotations in structure tree |
+| PDFUA.28.002 | 28 | error | Links have descriptions |
+| PDFUA.30.001 | 06 | error | XMP and Info dict consistent |
+| PDFUA.31.001 | 06 | error | PDF/UA identification present |
 
 ### Layer 2: Best-Practice Rules (PDFBP.*)
 
