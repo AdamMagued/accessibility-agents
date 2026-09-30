@@ -28,7 +28,7 @@ These map to ISO 14289-1 / Matterhorn Protocol checkpoints. Disabling these mean
 | PDFUA.15.001 | warning | Formulas tagged and have alt text |
 | PDFUA.17.001 | error | Artifacts not duplicated in structure tree |
 | PDFUA.19.001 | error | Tables have TH cells |
-| PDFUA.19.002 | error | TH cells have Scope |
+| PDFUA.19.002 | warning | TH cells have Scope or Headers/ID associations |
 | PDFUA.19.003 | error | Complex tables use Headers attribute |
 | PDFUA.20.001 | error | Lists properly tagged |
 | PDFUA.21.001 | error | Headings properly tagged |
@@ -40,6 +40,8 @@ These map to ISO 14289-1 / Matterhorn Protocol checkpoints. Disabling these mean
 | PDFUA.28.002 | error | Links have descriptions |
 | PDFUA.30.001 | error | XMP and Info dict consistent |
 | PDFUA.31.001 | error | PDF/UA identification present |
+
+Note: Tables organized through Headers and IDs satisfy Matterhorn 15-003 without Scope attributes.
 
 ### Layer 2: Best-Practice Rules (PDFBP.*)
 
@@ -63,7 +65,7 @@ Each row, with ID, severity and what it checks.
 | PDFBP.NAV.BOOKMARKS_FOR_LONG_DOCS | warning | Long docs have bookmarks |
 | PDFBP.NAV.TOC_LINKED | tip | TOC entries are linked |
 | PDFBP.TAB.TH_PRESENT | error | Tables have headers |
-| PDFBP.TAB.SCOPE_SET | warning | Headers have scope |
+| PDFBP.TAB.SCOPE_SET | warning | Headers have scope or Headers/ID associations |
 | PDFBP.TAB.COMPLEX_HEADERS | warning | Complex tables use Headers attr |
 | PDFBP.FORMS.TAB_ORDER | warning | Form tab order follows structure |
 | PDFBP.FORMS.TOOLTIP_PRESENT | error | Form fields have labels |

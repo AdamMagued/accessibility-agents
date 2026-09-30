@@ -28,7 +28,7 @@ These rules map to Matterhorn Protocol checkpoints. Violations mean the PDF fail
 | PDFUA.15.001 | 15 | warning | Formula not tagged with /Formula or has no /Alt |
 | PDFUA.17.001 | 17 | error | Content marked as Artifact also appears in structure tree |
 | PDFUA.19.001 | 19 | error | Table has no TH (header) cells |
-| PDFUA.19.002 | 19 | error | TH cell missing /Scope attribute |
+| PDFUA.19.002 | 19 | warning | TH cell has neither a /Scope attribute nor Headers/ID associations |
 | PDFUA.19.003 | 19 | error | Table does not use Headers attribute for complex spanning |
 | PDFUA.20.001 | 20 | error | List not tagged with /L, /LI, /Lbl, /LBody |
 | PDFUA.21.001 | 21 | error | Heading not tagged with /H or /H1-/H6 |
@@ -40,6 +40,8 @@ These rules map to Matterhorn Protocol checkpoints. Violations mean the PDF fail
 | PDFUA.28.002 | 28 | error | Link has no alternate description |
 | PDFUA.30.001 | 30 | error | XMP metadata and Info dictionary are inconsistent |
 | PDFUA.31.001 | 31 | error | File not identified as PDF/UA (missing pdfuaid:part) |
+
+Note: Tables organized through Headers and IDs satisfy Matterhorn 15-003 without /Scope attributes. PDFUA.19.002 is flagged as a warning rather than an error to reflect that Matterhorn 15-003 requires human judgement.
 
 ### Layer 2: Best-Practice Rules (PDFBP.*)
 
@@ -63,7 +65,7 @@ These rules go beyond PDF/UA to ensure practical accessibility.
 | PDFBP.NAV.BOOKMARKS_FOR_LONG_DOCS | warning | Document >10 pages without bookmarks |
 | PDFBP.NAV.TOC_LINKED | tip | Table of contents entries should link to their targets |
 | PDFBP.TAB.TH_PRESENT | error | Table has no header cells |
-| PDFBP.TAB.SCOPE_SET | warning | Header cells missing scope attribute |
+| PDFBP.TAB.SCOPE_SET | warning | Header cells missing scope attribute and not associated via Headers and IDs |
 | PDFBP.TAB.COMPLEX_HEADERS | warning | Complex table (spanning cells) needs Headers attribute |
 | PDFBP.FORMS.TAB_ORDER | warning | Form tab order should follow structure order |
 | PDFBP.FORMS.TOOLTIP_PRESENT | error | Form field missing tooltip/label |
