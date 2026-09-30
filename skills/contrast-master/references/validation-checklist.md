@@ -4,7 +4,7 @@ Part of the `contrast-master` skill. Read this only when the task reaches these 
 
 ## Validation Checklist
 
-1. Every text element has 4.5:1 contrast (or 3:1 for large text)?
+1. Every text element has 4.5:1 contrast (or 3:1 for large text: at least 18pt / 24px, or 14pt / 18.5px bold)?
 2. UI components have 3:1 contrast against adjacent colors?
 3. No information conveyed by color alone?
 4. Focus indicators visible with 3:1 contrast against adjacent colors (1.4.11)?

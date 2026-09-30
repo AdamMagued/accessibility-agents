@@ -30,13 +30,14 @@ These ratios are the minimum. Meeting them is mandatory, not aspirational.
 
 ### Text Contrast (4.5:1 minimum)
 
-- Normal text (under 18px or under 14px bold): 4.5:1 against background
+- Normal text (under 18pt / 24px, or under 14pt / 18.5px bold): 4.5:1 against background
 - This applies to all text including placeholders, captions, timestamps, and secondary text
 - "It's just a caption" is not an excuse for low contrast
 
 ### Large Text Contrast (3:1 minimum)
 
-- Large text (18px+ or 14px+ bold): 3:1 against background
+- Large text (at least 18pt / 24px, or at least 14pt / 18.5px bold): 3:1 against background
+- WCAG SC 1.4.3 defines large text as at least 18pt regular or 14pt bold, corresponding to 24px regular or 18.5px (18.67px) bold in CSS pixels (1pt = 1.333px). Anything smaller is normal text.
 - Headings often qualify as large text but verify the actual rendered size
 
 ### Non-Text Contrast (3:1 minimum)

@@ -16,7 +16,7 @@
 <details>
 <summary>Expand - 8 contrast issues detected</summary>
 
-- Text below 4.5:1 contrast ratio (3:1 for large text)
+- Text below 4.5:1 contrast ratio (3:1 for large text: at least 18pt / 24px, or at least 14pt / 18.5px bold)
 - UI components below 3:1 contrast
 - Focus indicators below 3:1 contrast
 - Information conveyed by color alone (red/green for error/success without text or icons)
