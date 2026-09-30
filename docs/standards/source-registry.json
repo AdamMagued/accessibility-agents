@@ -197,9 +197,9 @@
     },
     {
       "id": "pdf-ua-1",
-      "url": "https://pdfa.org/resource/pdfua-in-a-nutshell/",
+      "url": "https://www.pdfa.org/resource/pdfua-in-a-nutshell/",
       "type": "peer-reviewed",
-      "lastVerified": "2026-03-03",
+      "lastVerified": "2026-09-30",
       "sha256": "",
       "version": "ISO 14289-1",
       "agents": ["pdf-accessibility", "document-accessibility-wizard"],

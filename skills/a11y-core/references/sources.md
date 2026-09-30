@@ -29,7 +29,7 @@ citation policy is in `docs/` and applies to every skill in this package.
 
 ### document-accessibility-wizard
 
-- [PDF/UA-1 (ISO 14289-1:2023)](https://www.pdfa.org/pdfua/)
+- [PDF/UA-1 (ISO 14289-1)](https://www.pdfa.org/resource/pdfua-in-a-nutshell/)
 - [Matterhorn Protocol](https://www.pdfa.org/matterhorn/)
 - [Microsoft Office Accessibility Checker](https://support.microsoft.com/en-us/office/use-the-accessibility-checker-to-find-accessibility-issues-6d4ee7f0-5783-465a-85a6-3ea1a1e5606f)
 - [EPUB Accessibility 1.1](https://www.w3.org/TR/epub-a11y-11/)
@@ -236,7 +236,7 @@ citation policy is in `docs/` and applies to every skill in this package.
 
 ### pdf-accessibility
 
-- [PDF/UA-1 (ISO 14289-1:2023)](https://www.pdfa.org/pdfua/)
+- [PDF/UA-1 (ISO 14289-1)](https://www.pdfa.org/resource/pdfua-in-a-nutshell/)
 - [Matterhorn Protocol](https://www.pdfa.org/matterhorn/)
 - [Adobe PDF Accessibility](https://www.adobe.com/accessibility/pdf.html)
 - [PDF Reference (ISO 32000)](https://pdfa.org/resource/pdf-specification-index/)
